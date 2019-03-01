@@ -76,5 +76,20 @@ namespace Lab4
 
             return weights;
         }
+
+        public static int FindMax(int[] arr)
+        {
+            int maxValue = int.MinValue;
+            int index = -1;
+
+            for(int i = 0; i < arr.Length; i++)
+                if(arr[i] > maxValue)
+                {
+                    maxValue = arr[i];
+                    index = i;
+                }
+
+            return index;
+        }
     }
 }

@@ -17,6 +17,8 @@ namespace Lab4
         const int bottomRandomRange = -10;//нижний предел для генерирования значения признака образа из обучающей выборки
         const int topRandomRange = 10;//верхний предел для генерирования значения признака образа из обучающей выборки
 
+        Vector[] classesWeightVectors;
+
         public Form1()
         {
             InitializeComponent();
@@ -47,7 +49,7 @@ namespace Lab4
                     imagesForLearning[2].Elements[2] = 1;*/
 
 
-                    Vector[] classesWeightVectors = Functions.InitializeClassesWeightVectors(classCount, signsCount);
+                    classesWeightVectors = Functions.InitializeClassesWeightVectors(classCount, signsCount);
                     int[] decisionFunctionsResults = new int[classCount];
 
                     int countOfIteration = 0;
@@ -102,6 +104,34 @@ namespace Lab4
             for (int i = 0; i < imagesForLearning.Length; i++)
             {
                 functionsTextBox.Text += Environment.NewLine + imagesForLearning[i].ToString() + "  " + classesWeightVectors[i].ToStringAsFunction();
+            }
+        }
+
+        private void decideButton_Click(object sender, EventArgs e)
+        {
+            if(x1TextBox.Text != "" && x2TextBox.Text != "")
+            {
+                int x1 = Convert.ToInt32(x1TextBox.Text);
+                int x2 = Convert.ToInt32(x2TextBox.Text);
+                int[] decisionFunctionsResults = new int[classesWeightVectors.Length];
+
+                Vector vector = new Vector(3);
+                vector.Elements[0] = x1;
+                vector.Elements[1] = x2;
+                vector.Elements[2] = 1;
+
+                for(int i= 0; i < classesWeightVectors.Length; i++)
+                {
+                    decisionFunctionsResults[i] = classesWeightVectors[i] * vector;
+                }
+
+                int classNumber = Functions.FindMax(decisionFunctionsResults);
+
+                decisionLabel.Text = String.Format("Image belongs to {0} class", classNumber+1);
+            }
+            else
+            {
+                MessageBox.Show("Please, enter x1 and x2!");
             }
         }
 

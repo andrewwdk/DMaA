@@ -8,3 +8,13 @@ D:\Учёба_6сем\МиАПР\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResourc
 D:\Учёба_6сем\МиАПР\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
 D:\Учёба_6сем\МиАПР\Lab4\Lab4\obj\Debug\Lab4.exe
 D:\Учёба_6сем\МиАПР\Lab4\Lab4\obj\Debug\Lab4.pdb
+D:\github_repos\DMaA\Lab4\Lab4\bin\Debug\Lab4.exe.config
+D:\github_repos\DMaA\Lab4\Lab4\bin\Debug\Lab4.exe
+D:\github_repos\DMaA\Lab4\Lab4\bin\Debug\Lab4.pdb
+D:\github_repos\DMaA\Lab4\Lab4\obj\Debug\Lab4.csprojAssemblyReference.cache
+D:\github_repos\DMaA\Lab4\Lab4\obj\Debug\Lab4.Form1.resources
+D:\github_repos\DMaA\Lab4\Lab4\obj\Debug\Lab4.Properties.Resources.resources
+D:\github_repos\DMaA\Lab4\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
+D:\github_repos\DMaA\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+D:\github_repos\DMaA\Lab4\Lab4\obj\Debug\Lab4.exe
+D:\github_repos\DMaA\Lab4\Lab4\obj\Debug\Lab4.pdb

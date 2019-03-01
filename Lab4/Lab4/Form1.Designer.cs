@@ -75,11 +75,11 @@
             // 
             this.functionsTextBox.BackColor = System.Drawing.Color.White;
             this.functionsTextBox.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.functionsTextBox.Location = new System.Drawing.Point(12, 103);
+            this.functionsTextBox.Location = new System.Drawing.Point(12, 87);
             this.functionsTextBox.Multiline = true;
             this.functionsTextBox.Name = "functionsTextBox";
             this.functionsTextBox.ReadOnly = true;
-            this.functionsTextBox.Size = new System.Drawing.Size(249, 216);
+            this.functionsTextBox.Size = new System.Drawing.Size(275, 216);
             this.functionsTextBox.TabIndex = 6;
             this.functionsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -133,6 +133,7 @@
             this.decideButton.TabIndex = 11;
             this.decideButton.Text = "DECIDE";
             this.decideButton.UseVisualStyleBackColor = true;
+            this.decideButton.Click += new System.EventHandler(this.decideButton_Click);
             // 
             // decisionLabel
             // 
