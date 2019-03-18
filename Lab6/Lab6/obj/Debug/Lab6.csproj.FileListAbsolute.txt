@@ -1,0 +1,10 @@
+D:\Учёба_6сем\МиАПР\Lab6\Lab6\obj\Debug\Lab6.csprojAssemblyReference.cache
+D:\Учёба_6сем\МиАПР\Lab6\Lab6\obj\Debug\Lab6.Form1.resources
+D:\Учёба_6сем\МиАПР\Lab6\Lab6\obj\Debug\Lab6.Properties.Resources.resources
+D:\Учёба_6сем\МиАПР\Lab6\Lab6\obj\Debug\Lab6.csproj.GenerateResource.cache
+D:\Учёба_6сем\МиАПР\Lab6\Lab6\obj\Debug\Lab6.csproj.CoreCompileInputs.cache
+D:\Учёба_6сем\МиАПР\Lab6\Lab6\bin\Debug\Lab6.exe.config
+D:\Учёба_6сем\МиАПР\Lab6\Lab6\bin\Debug\Lab6.exe
+D:\Учёба_6сем\МиАПР\Lab6\Lab6\bin\Debug\Lab6.pdb
+D:\Учёба_6сем\МиАПР\Lab6\Lab6\obj\Debug\Lab6.exe
+D:\Учёба_6сем\МиАПР\Lab6\Lab6\obj\Debug\Lab6.pdb
