@@ -6,4 +6,5 @@ This is a repository for Decision Methods and Algoriths labs.
 4th lab - perceptron algorythm
 5th lab 
 6th lab
-7th lab 
+7th lab - grammatics
+8th lab - create rules by grammatics
